@@ -41,6 +41,10 @@ public class SistemaCentral {
 			eliminarAlumno(1234567);
 			System.out.println(alumnos);
 			
+			Alumno alumno4= new Alumno("Teresa", "Jacobo", LocalDate.of(2009, 7,12), 2394800);
+			SistemaCentral.añadirAlumno(alumno4);
+			System.out.println(devolverAlumno("Teresa"));
+			
 		}
 
 		public static void añadirAlumno(Alumno alumno) {
