@@ -45,6 +45,11 @@ public class SistemaCentral {
 			SistemaCentral.añadirAlumno(alumno4);
 			System.out.println(devolverAlumno("Teresa"));
 			
+			Alumno alumno5= new Alumno("Almudena", "Martínez", LocalDate.of(2010, 6,3), 23533345);
+			SistemaCentral.añadirAlumno(alumno5);
+			System.out.println(devolverAlumno("Almudena"));
+			
+			
 		}
 
 		public static void añadirAlumno(Alumno alumno) {
